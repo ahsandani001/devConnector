@@ -8,8 +8,6 @@ const validatePostInput = require("../../validations/post");
 
 router.get("/test", (req, res) => res.json({ msg: "posts routes works" }));
 
-router.get('ping', (req, res) => res.json({message: 'pong'}));
-
 // @route   Get api/posts
 // @desc    Get Posts
 // @access  Public
